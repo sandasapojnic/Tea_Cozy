@@ -1,0 +1,192 @@
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+}
+
+header {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  border-bottom: 1px solid seashell;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+}
+
+nav {
+  position: fixed;
+  right: 50px; 
+  top: 10px; 
+  background-color: black; 
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  z-index: 1000; 
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: underline; 
+  color: seashell;
+  font-size: 22px;
+}
+
+.mission {
+  background-image: url('../images/img-mission-background.jpg');
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.mission-content {
+  background-color: rgba(0, 0, 0,1); 
+  width: 100%; 
+  padding: 20px;
+  text-align: center;
+  color: seashell;
+}
+
+.mission h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.mission h4 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.mission, .locations {
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 20px; 
+  padding: 50px 0; 
+}
+
+.mission-content, .location-items {
+  margin: 0 auto;
+  max-width: calc(100% - 40px); 
+  padding: 20px;
+}
+
+.tea-of-the-month {
+  padding: 50px;
+  text-align: center;
+  max-width: 1000px; 
+  margin: 0 auto; 
+}
+
+.tea-of-the-month h4 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.tea-of-the-month h5 {
+  font-size: 24px;
+  margin: 10px 0 0 0;
+}
+
+.tea-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.tea-item {
+  width: 300px; 
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tea-item img {
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.tea-item p {
+  margin-top: 10px; 
+  font-size: 18px;
+}
+
+.locations {
+  background-image: url('../images/img-locations-background.jpg');
+  background-size: cover;
+  height: 500px;
+  padding: 50px;
+  color: seashell;
+}
+
+.locations h3 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.location-items {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 40px; 
+}
+
+.location-item {
+  width: 300px; 
+  background-color: rgba(0, 0, 0, 1);
+  padding: 10px;
+}
+
+.location-item h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: black;
+  padding: 20px 50px;
+  position: relative;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-container p {
+  margin-top: 5px;
+  color: seashell;
+}
+
+.footer-container .copyright {
+  text-align: left;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
